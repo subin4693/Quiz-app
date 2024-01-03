@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .bg_radial-gradient {
+        background: radial-gradient(#cbd5e1, white);
+    }
+    .flex_center {
+        @apply flex justify-center items-center;
+    }
+}
